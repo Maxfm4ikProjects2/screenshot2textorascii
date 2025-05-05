@@ -14,7 +14,7 @@ def get_clipboard_image():
         if isinstance(img, Image.Image):
             return img
         else:
-            print("No image found in clipboard. Click any key to continue.")
+            print("No image found in clipboard. Press any key to continue.")
             return None
     except Exception as e:
         print(f"Error grabbing image: {e}")
